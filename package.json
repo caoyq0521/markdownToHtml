@@ -1,0 +1,25 @@
+{
+  "name": "markdown2html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caoyq0521/markdownToHtml.git"
+  },
+  "author": "caoyq0521",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caoyq0521/markdownToHtml/issues"
+  },
+  "homepage": "https://github.com/caoyq0521/markdownToHtml#readme",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
