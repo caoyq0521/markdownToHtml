@@ -1,7 +1,9 @@
 const reg_sharp = /^#/;
 const reg_dash = /^-/;
 
-const { getRandomStr } = require('./util');
+function getRandomStr() {
+  return Math.random().toString(36).substr(2, 10);
+}
 
 function createHtmlStr(obj) {
   let htmlStr = '';
